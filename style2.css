@@ -1,0 +1,22 @@
+body {
+    background-color:aqua;
+}
+.box3 {
+    position: absolute;
+    color:aliceblue;
+    top: 5%;
+    left: 43%;
+}
+.box1{
+    background-color:aquamarine;
+    height: 65px;
+    width: 200px;
+    position: absolute;
+    top: 65%;
+    left: 42%;
+}
+.box2{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+}

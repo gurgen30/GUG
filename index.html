@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Змейка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍Змейка</h1>
+  <p>Счёт: <span id="score">0</span></p>
+  <p>🏆 Рекорд: <span id="best">0</span></p>
+  <div id="game"></div>
+  <button onclick="initGame()">🔁 Играть снова</button>
+
+  <div id="mobileControls">
+    <button onclick="changeDirection('up')">⬆️</button><br />
+    <button onclick="changeDirection('left')">⬅️</button>
+    <button onclick="changeDirection('down')">⬇️</button>
+    <button onclick="changeDirection('right')">➡️</button>
+  </div>
+
+  <audio id="eatSound" src="eat.mp3"></audio>
+  <audio id="deadSound" src="dead.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

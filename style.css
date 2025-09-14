@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  #game {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 1px;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #222;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+  }
+  
+  .snake {
+    background: linear-gradient(to right, limegreen, green);
+    border-radius: 3px;
+  }
+  
+  .food {
+    background-color: red;
+    border-radius: 3px;
+  }
+  
+  #mobileControls button {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+    border: none;
+  }
